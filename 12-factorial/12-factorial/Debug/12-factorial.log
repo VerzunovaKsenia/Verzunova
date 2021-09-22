@@ -1,0 +1,19 @@
+﻿Build started 20.09.2021 10:37:53.
+     1>Project "c:\Users\Ксения\documents\visual studio 2012\Projects\12-factorial\12-factorial\12-factorial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(8): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(14): error C2146: syntax error : missing ')' before identifier 'or'
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(14): error C2146: syntax error : missing ';' before identifier 'or'
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(14): error C3861: 'or': identifier not found
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(14): error C2059: syntax error : ')'
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(15): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(18): error C2181: illegal else without matching if
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(20): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ксения\documents\visual studio 2012\projects\12-factorial\12-factorial\source.cpp(23): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Done Building Project "c:\Users\Ксения\documents\visual studio 2012\Projects\12-factorial\12-factorial\12-factorial.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.82
