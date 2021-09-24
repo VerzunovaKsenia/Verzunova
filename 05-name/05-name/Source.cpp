@@ -2,8 +2,8 @@
 int main ()
 	{
 		char name[100];
-		std::cout<<"Введите ваше имя\n ";
+		std::cout<<"VVedite name\n ";
 		std::cin>>name;
-		std::cout<<"Привет,"<<name<<"\n";
+		std::cout<<"Hello,"<<name<<"\n";
 	return 0;
 	}
