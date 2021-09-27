@@ -11,7 +11,7 @@ int main()
     b = int(N);
     float h;
     h = float(b);
-    if ((b <= 0)  or ((N - h) > eps))
+    if ((b <= 0)  || ((N - h) > eps))
     {
         std::cout<<"oshibka\n";
     }
@@ -35,6 +35,6 @@ int main()
         }
     }
     //std::cout << "runtime = " << clock()/1000.0 ;
-	
+	system("pause");
     return 0;
 }
