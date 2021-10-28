@@ -29,6 +29,6 @@ int main() {
     }
     std::cout << N <<"\n" ;
     std::cout << k <<"\n" ;
-	system("pause");
+//system("pause");
     return 0;
 }
