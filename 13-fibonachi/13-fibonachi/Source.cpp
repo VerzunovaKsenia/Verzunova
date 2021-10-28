@@ -35,6 +35,5 @@ int main()
             N = N - 1;
         }
     }
-
     return 0;
 }
