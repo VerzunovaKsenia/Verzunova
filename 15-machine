@@ -5,7 +5,7 @@ int main()
     float mnol(0.1);
     float n(0.1);
     double mnol1(0.1);
-    double n1(0.1);
+    double n1(0.1); 
     int d = 0;
     float m(1.0);
     float x(0.9);
