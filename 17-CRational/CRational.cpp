@@ -7,6 +7,7 @@ using namespace std;
 
 CRational::CRational(int num, int denom):m_num(num), m_denom(denom)
 {
+	 assert(denom != 0);
 }
 
 void CRational::sum(const CRational &b)
