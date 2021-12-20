@@ -1,0 +1,22 @@
+#include <iostream>
+#include <fstream>
+#include <cmath>
+using namespace std;
+float PI = acos(-1.0);
+int main()
+{
+	ofstream fout("xsin(x).txt");
+    //float h = PI/100.0;
+	float h = 1;
+	//for(float j = 0; j <= 2*PI; j+=h)
+	//{
+		for(float i = -100; i <= 100; i+=h)
+		{
+		fout<<i<<", "<<i*sin(i)<<"\n";
+		//fout<<j<<", "<<i<<", "<<sin(i)*sin(j)<<"\n";
+		}
+	//}
+	fout.close();
+    
+    return 0;
+}
