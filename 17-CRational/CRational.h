@@ -15,7 +15,6 @@ public:
 	void sum(const CRational &b);
 	void mult(const CRational &b);
 	void reduction(int num, int denom);
-	void check(int num, int denom);
 	int gcd(int num, int denom);
 };
  
