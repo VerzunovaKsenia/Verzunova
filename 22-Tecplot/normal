@@ -1,0 +1,19 @@
+#include <iostream>
+#include <fstream>
+#include <cmath>
+using namespace std;
+int main()
+{
+ofstream fout("нормальное.txt");
+double h = 0.06;
+for(double j = -3.0; j <= 3.0; j+=h)
+{
+for(double i = -3.0; i <= 3.0; i+=h)
+{
+fout«j«", "«i«", "«exp(-(i*i+j*j/2.0))/2.0*M_PI«"\n";
+}
+}
+fout.close();
+
+return 0;
+}
